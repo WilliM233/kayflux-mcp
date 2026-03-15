@@ -1,17 +1,13 @@
 {
-  "name": "wwe-sqlite-mcp",
+  "name": "kayflux-mcp",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "MCP server connecting Claude to the KayFlux REST API",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.27.1",
-    "better-sqlite3": "^12.6.2"
-  },
-  "type": "module"
+    "@modelcontextprotocol/sdk": "^1.27.1"
+  }
 }
