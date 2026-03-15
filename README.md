@@ -179,7 +179,3 @@ claude mcp add kayflux node /path/to/kayflux-mcp/index.js -e KAYFLUX_API_URL=htt
 **Tool not found**
 - Restart the MCP server after any code changes
 - Check that `index.js` is the entry point in your MCP config
-
-## License
-
-Private project — not distributed.
